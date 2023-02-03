@@ -6,7 +6,7 @@ import time
 def Campo(tela, largura, altura):
     # configurando imagem
     tamanho = (640,400)
-    imagem_original = pygame.image.load('campo.jpeg').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/campo.jpeg').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -18,7 +18,7 @@ def Campo(tela, largura, altura):
 def empate(tela, largura, altura):
     # configurando imagem
     tamanho = (640,560)
-    imagem_original = pygame.image.load('empate.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/empate.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -30,7 +30,7 @@ def empate(tela, largura, altura):
 def Vitoriadireita(tela, largura, altura):
     # configurando imagem
     tamanho = (640,560)
-    imagem_original = pygame.image.load('jog 2.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/jog 2.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -42,7 +42,7 @@ def Vitoriadireita(tela, largura, altura):
 def Vitoriaesquerda(tela, largura, altura):
     # configurando imagem
     tamanho = (640,560)
-    imagem_original = pygame.image.load('jog 1.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/jog 1.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -53,7 +53,7 @@ def Vitoriaesquerda(tela, largura, altura):
 
 def Band_vermelha(tela, largura, altura):
     tamanho = (64,64)
-    imagem_original = pygame.image.load('bandeira vermelha.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/bandeira vermelha.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -62,7 +62,7 @@ def Band_vermelha(tela, largura, altura):
 
 def band_azul(tela, largura, altura):
     tamanho = (64,64)
-    imagem_original = pygame.image.load('bandeira azul.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/bandeira azul.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -71,7 +71,7 @@ def band_azul(tela, largura, altura):
 
 def band_verde(tela, largura, altura):
     tamanho = (64,64)
-    imagem_original = pygame.image.load('bandeira verde.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/bandeira verde.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -80,7 +80,7 @@ def band_verde(tela, largura, altura):
 
 def band_preta(tela, largura, altura):
     tamanho = (64,64)
-    imagem_original = pygame.image.load('bandeira preta.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/bandeira preta.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -89,7 +89,7 @@ def band_preta(tela, largura, altura):
 
 def Caixa():
     tamanho = (640,160)
-    imagem_original = pygame.image.load('caixa.png').convert_alpha()
+    imagem_original = pygame.image.load('Imagens/caixa.png').convert_alpha()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
@@ -154,7 +154,7 @@ def escreveteladeentrade(texto, tela, largura, altura):
 def abrir_tela_de_entrada(tela):
     # configurando imagem
     tamanho = (640,560)
-    imagem_original = pygame.image.load('tela de inicio.png').convert()
+    imagem_original = pygame.image.load('Imagens/tela de inicio.png').convert()
     imagem = pygame.transform.scale(imagem_original, tamanho)
 
     # mostrando imagem
